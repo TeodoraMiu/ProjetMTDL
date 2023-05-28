@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "479820112869",
+    "project_id": "mtdlsangdon",
+    "storage_bucket": "mtdlsangdon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479820112869:android:d40c2fe344f4672fccc50c",
+        "android_client_info": {
+          "package_name": "com.example.hopitaux"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479820112869-64kuol2jj64if0qi75svttf981heepj5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hopitaux",
+            "certificate_hash": "10164e1d4d91909e5723d33d74512b13fc26b481"
+          }
+        },
+        {
+          "client_id": "479820112869-dl4rshv035b1s4k8a3f8lfjvq7l2g9j9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ3UDOFj9nW9mk7d4Ux3hkVbtB7_F4wJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479820112869-dl4rshv035b1s4k8a3f8lfjvq7l2g9j9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

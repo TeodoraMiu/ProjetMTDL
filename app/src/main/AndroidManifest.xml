@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hopitaux"
+        tools:targetApi="31">
+        <activity
+            android:name=".ShowPastDonations"
+            android:exported="false" />
+        <activity
+            android:name=".ViewConfirmationRequests"
+            android:exported="false" />
+        <activity
+            android:name=".AddAppointmentIntervals"
+            android:exported="false" />
+        <activity
+            android:name=".ProgramMeetup"
+            android:exported="false" />
+        <activity
+            android:name=".Recommendations"
+            android:exported="false" />
+        <activity
+            android:name=".AddAnnouncement"
+            android:exported="false" />
+        <activity
+            android:name=".AccountInformation"
+            android:exported="false" />
+        <activity
+            android:name=".MainMenuHospital"
+            android:exported="false" />
+        <activity
+            android:name=".MainMenuDonor"
+            android:exported="false" />
+        <activity
+            android:name=".AccountDetails"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".HospitalMainMenu" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".PublishDonationRequest" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".DonorForm"
+            android:exported="false" />
+        <activity
+            android:name=".DonorQuizFailed"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DonorQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.login.SignUpActivity"
+            android:parentActivityName=".MainActivity" />
+    </application>
+
+</manifest>
